@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+*.pem
+*.key
+
+# Terraform Local State and Overrides
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+!terraform/terraform.tfvars.example
+terraform/crash.log
+
+# Uploads & Media
+app/static/uploads/*
+!app/static/uploads/.gitkeep
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
